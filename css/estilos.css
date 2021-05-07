@@ -9,11 +9,13 @@
   }
 
   body{ 
-
+    background: url(concepto-material-madera-textura-papel-pintado-fondo_53876-42925.jpg);
     display: flex;
     justify-content: center;
     background-color: rgb(101, 157, 230);
     padding: 90px ;
+    font-family: 'Itim', cursive;
+
   }
 
   .imagen{
@@ -28,19 +30,21 @@
       border-radius: 20px;
       width: 500px;
       height: 500px;
+      font-family: 'Itim', cursive;
       
   }
   
   .content-form .nombre{ 
-      background-color: gray;
+      background-color: rgba(245, 243, 243, 0.973);
       font-size: 20px;
       padding: 10px;
       width: 430px;
       border-radius: 5px;
+      font-family: 'Itim', cursive;
   }
 
   .content-form .apellidom {   
-    background-color: gray;
+    background-color: white;
     font-size: 20px;
     padding: 10px;
     width: 200px;
@@ -50,7 +54,7 @@
   }
 
   .content-form .apellidop {
-    background-color: gray;
+    background-color: white;
     font-size: 20px;
     padding: 10px;
     width: 200px;
@@ -58,7 +62,7 @@
   }
 
   .content-form .correo {
-    background-color: gray;
+    background-color: white;
     font-size: 20px;
     padding: 10px;
     width: 200px;
@@ -66,7 +70,7 @@
   }
 
   .content-form .telefono {
-    background-color: gray;
+    background-color: white;
     font-size: 20px;
     padding: 10px;
     width: 200px;
@@ -74,12 +78,26 @@
   }
 
   .content-form .direccion {
-    background-color: gray;
+    background-color: white;
     font-size: 20px;
     padding: 10px;
     width: 430px;
     border-radius: 5px;
   }
+
+  .content-form .btn{
+    
+    background: blue;
+    font-size: 20px;
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content:center;
+    display: block;
+  }
+
+  
 
   #agregar{
     padding-left: 20px ;
