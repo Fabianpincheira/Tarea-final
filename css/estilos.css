@@ -1,0 +1,108 @@
+* {
+   padding: 0;
+   margin: 0;
+  }
+
+  h1{
+      display: flex;
+      justify-content: center;
+  }
+
+  body{ 
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(101, 157, 230);
+    padding: 90px ;
+  }
+
+  .imagen{
+    width: 2000%;
+    
+  }
+
+  .content-form {
+      padding-left: 40px ;
+      padding: 20px 20px;
+      background-color:steelblue;
+      border-radius: 20px;
+      width: 500px;
+      height: 500px;
+      
+  }
+  
+  .content-form .nombre{ 
+      background-color: gray;
+      font-size: 20px;
+      padding: 10px;
+      width: 430px;
+      border-radius: 5px;
+  }
+
+  .content-form .apellidom {   
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 20px 20px 20px;
+
+  }
+
+  .content-form .apellidop {
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+  }
+
+  .content-form .correo {
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+  }
+
+  .content-form .telefono {
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+  }
+
+  .content-form .direccion {
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    width: 430px;
+    border-radius: 5px;
+  }
+
+  #agregar{
+    padding-left: 20px ;
+    background-color: rgb(30, 14, 90);
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+
+  }
+h2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.notificacion{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: bisque;
+  padding-top: 20px;
+}
+
+.error{
+  color: yellow;
+}
